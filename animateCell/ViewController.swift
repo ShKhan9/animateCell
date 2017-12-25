@@ -176,7 +176,7 @@ class ViewController: UIViewController , UITableViewDataSource,UITableViewDelega
             
             if(cell?.animate)!
             {
-              UIView.animate(withDuration: 0.3, animations: {
+              UIView.animate(withDuration: 0.4, animations: {
                 
                 cell?.labeltopCon.constant = 20
                 
